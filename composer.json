@@ -1,0 +1,22 @@
+{
+    "name": "abdalla/php",
+    "description": "code examples for php",
+    "authors": [
+        {
+            "name": "abdallamaher",
+            "email": "abdallamaher89@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "OOP\\": "OOP",
+            "SOLID\\": "SOLID",
+            "Creational\\": "Creational",
+            "Structural\\": "Structural",
+            "Behavioral\\": "Behavioral"
+        }
+    }
+}

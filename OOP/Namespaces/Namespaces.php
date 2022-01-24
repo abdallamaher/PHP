@@ -1,4 +1,6 @@
 <?php
+
+
 /*
 //duplicate same class in same namespace is syntax error
 namespace Abdalla{
@@ -32,7 +34,7 @@ namespace Abdalla{
 
 so solution:
 */
-namespace Abdalla{
+namespace OOP\Namespaces\Abdalla{
     class f{
         function ge() {
             $t = "me";
@@ -40,7 +42,7 @@ namespace Abdalla{
         }
     }
 }
-namespace Abdalla\coms{
+namespace OOP\Namespaces\Abdalla\coms{
     class f{
         function ge() {
             $t = "meff";
@@ -49,8 +51,8 @@ namespace Abdalla\coms{
     }
 }
 namespace{
-    echo Abdalla\f::ge();
-    // echo Abdalla\f.ge(); error
-    //echo Abdalla\f->ge(); error
+    echo OOP\Namespaces\Abdalla\f::ge();
+    // echo OOP\Namespaces\Abdalla\f.ge(); error
+    //echo OOP\Namespaces\Abdalla\f->ge(); error
 }
 ?>
