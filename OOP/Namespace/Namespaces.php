@@ -34,25 +34,24 @@ namespace Abdalla{
 
 so solution:
 */
-namespace Abdalla{
+namespace OOP\Namespaces\Abdalla{
     class f{
         function ge() {
             $t = "me";
-          return $t;
+            return $t;
         }
     }
 }
-namespace Abdalla\coms{
+namespace OOP\Namespaces\Abdalla\coms{
     class f{
         function ge() {
             $t = "meff";
-          return $t;
+            return $t;
         }
     }
 }
 namespace{
-    echo Abdalla\f::ge();
-    // echo Abdalla\f.ge(); error
-    //echo Abdalla\f->ge(); error
+    echo OOP\Namespaces\Abdalla\f::ge();
+    // echo OOP\Namespace\Abdalla\f.ge(); error
+    //echo OOP\Namespace\Abdalla\f->ge(); error
 }
-?>
