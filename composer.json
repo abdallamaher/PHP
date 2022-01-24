@@ -12,11 +12,11 @@
     },
     "autoload": {
         "psr-4": {
-            "OOP\\": "OOP",
             "SOLID\\": "SOLID",
             "Creational\\": "Creational",
             "Structural\\": "Structural",
-            "Behavioral\\": "Behavioral"
+            "Behavioral\\": "Behavioral",
+            "DSA\\": "DSA"
         }
     }
 }

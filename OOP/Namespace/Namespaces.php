@@ -34,7 +34,7 @@ namespace Abdalla{
 
 so solution:
 */
-namespace OOP\Namespaces\Abdalla{
+namespace Abdalla{
     class f{
         function ge() {
             $t = "me";
@@ -42,7 +42,7 @@ namespace OOP\Namespaces\Abdalla{
         }
     }
 }
-namespace OOP\Namespaces\Abdalla\coms{
+namespace Abdalla\coms{
     class f{
         function ge() {
             $t = "meff";
@@ -51,8 +51,8 @@ namespace OOP\Namespaces\Abdalla\coms{
     }
 }
 namespace{
-    echo OOP\Namespaces\Abdalla\f::ge();
-    // echo OOP\Namespaces\Abdalla\f.ge(); error
-    //echo OOP\Namespaces\Abdalla\f->ge(); error
+    echo Abdalla\f::ge();
+    // echo Abdalla\f.ge(); error
+    //echo Abdalla\f->ge(); error
 }
 ?>
