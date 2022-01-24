@@ -52,6 +52,6 @@ namespace OOP\Namespaces\Abdalla\coms{
 }
 namespace{
     echo OOP\Namespaces\Abdalla\f::ge();
-    // echo OOP\Namespace\Abdalla\f.ge(); error
-    //echo OOP\Namespace\Abdalla\f->ge(); error
+    // echo OOP\Namespaces\Abdalla\f.ge(); error
+    //echo OOP\Namespaces\Abdalla\f->ge(); error
 }
