@@ -1,12 +1,12 @@
 <?php
 
-namespace Creational\SimpleFactory\Solution;
+namespace Creational\Builder\Problem;
 
 class A
 {
     public $classb;
     public $classc;
-    public function __construct($classb, $classc)
+    public function __construct($classb = null, $classc = null)
     {
         $this->classb = $classb;
         $this->classc = $classc;

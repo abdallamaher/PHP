@@ -2,6 +2,10 @@
 
 namespace Creational\SimpleFactory\Solution;
 
+use Creational\SimpleFactory\Solution\Models\A;
+use Creational\SimpleFactory\Solution\Models\B;
+use Creational\SimpleFactory\Solution\Models\C;
+
 class Factory
 {
     public function build()

@@ -1,8 +1,8 @@
 <?php
 namespace Tests;
 
-use Creational\SimpleFactory\Solution\A;
 use Creational\SimpleFactory\Solution\Factory;
+use Creational\SimpleFactory\Solution\Models\A;
 use PHPUnit\Framework\TestCase;
 
 class SimpleFactoryTest extends TestCase
