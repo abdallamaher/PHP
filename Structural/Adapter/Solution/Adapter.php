@@ -13,7 +13,7 @@ class Adapter extends PreTarget
 
     public function request($first_name, $last_name): string
     {
-        $name = $first_name . " ". $last_name;
-        return $this->adaptee->request($name);
+        $full_name = $first_name . " ". $last_name;
+        return $this->adaptee->request($full_name);
     }
 }

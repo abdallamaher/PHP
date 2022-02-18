@@ -4,8 +4,8 @@ namespace Structural\Adapter\Solution;
 
 class CurTarget
 {
-    public function request($Name): string
+    public function request($full_name): string
     {
-        return "Hi " . $Name;
+        return "Hi " . $full_name;
     }
 }

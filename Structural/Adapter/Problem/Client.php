@@ -10,13 +10,13 @@ function fillName($first_name, $last_name) {
 
 $obj = new Target();
 /*
-In the pre version of our Target library:
-// takes two parameters
+// In the pre version of our Target library:
+// takes (first_name, last_name)
     $obj->request("Abdallah", "Maher");
 
 
-In the current version Target
-// library takes one parameter:
+// In the current version Target ibrary
+// takes full_name:
     so one work around is like below;
 */
 echo $obj->request(fillName("Abdallah", "Maher"));
