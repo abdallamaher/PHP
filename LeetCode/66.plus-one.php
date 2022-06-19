@@ -13,6 +13,32 @@ class Solution {
      */
     function plusOne($digits) {
         $len = count($digits);
+        $plus = true;
+        end($digits);
+        while(!is_null($key = key($digits))) {
+            if($plus === true) {
+                $digits[$key] = current($digits)+1;
+                $plus = false;
+            }
+
+            if(current($digits) === 10){
+                $plus = true;
+                $digits[$key] = 0;
+            }
+            prev($digits);
+        }
+        if($plus === true) {
+            array_unshift($digits, 1);
+        }
+        return $digits;
+    }
+
+    /**
+     * @param Integer[] $digits
+     * @return Integer[]
+     */
+    function plusOne2($digits) {
+        $len = count($digits);
         $digits = array_reverse($digits);
         $plush = false;
         for($i = 0; $i<$len; $i++) {
