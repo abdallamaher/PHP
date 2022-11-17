@@ -34,6 +34,7 @@ $fn = fn() => $x++; // Has no effect
 $fn();
 return;
 // Anonymous functions may be declared statically. This prevents them from having the current class automatically bound to them.
+// They don't exist on the global space.
 $x = 1;
 $fun = static function ()
 {
