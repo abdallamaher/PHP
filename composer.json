@@ -17,7 +17,8 @@
             "Creational\\": "Creational",
             "Structural\\": "Structural",
             "Behavioral\\": "Behavioral",
-            "DSA\\": "DSA"
+            "DSA\\": "DSA",
+            "Advent\\": "Advent"
         }
     }
 }
